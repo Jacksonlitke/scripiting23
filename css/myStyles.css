@@ -1,0 +1,53 @@
+#masthead, header{ background-color: red;
+
+
+
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0%;
+    overflow: hidden;
+    background-color: rgba(185, 19, 19, 0.61);
+    position: fixed;
+  top: 0;
+  width: 30%;
+}nav li a{
+    float: left;
+    display:block;
+    padding:8px 16px ;
+    text-decoration: none;
+    overflow: auto;
+
+}
+nav a, nav a:visited{
+    display: block;
+    padding: 30px;
+    background-color: black;
+    text-decoration: none;
+    color: red;
+    list-style-type: none;
+    margin: 0;
+    padding:0;
+    
+}
+nav a:hover{
+    display: block;
+    padding: 30px;
+    overflow: hidden;
+}
+
+#intro {background-color: rgb(18, 231, 192);}
+
+.bg-scallop{
+    background-image: url("../images/backgrounds/scallop-01.jpg");
+    background-repeat: repeat-x;
+    background-color: #333232;
+} 
+#Hobbies{
+    background-color: rgb(154, 154, 212);
+    text-emphasis-color: rgb(150, 26, 26);
+}
+#Skills{
+    background-color: rgb(211, 22, 211);
+}
