@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&family=Libre+Baskerville&family=Martian+Mono&family=Pixelify+Sans&family=Roboto&family=Young+Serif&display=swap');
+body{
+    background-color: gray;
+    font-family: 'Times New Roman', Times, serif;
+    color:white;
+}
+h1, h2{
+    font-family: 'Arvo', serif;
+font-family: 'Libre Baskerville', serif;
+font-family: 'Martian Mono', monospace;
+font-family: 'Pixelify Sans', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Young Serif', serif;
+
+    
+}
+header{
+    background-image: linear-gradient(to top, #dc1111, #2478de, #500000, #2c2c29a5, rgba(165, 81, 42, 0.956));;
+    text-align: center;
+    padding-top: 150px;
+}
+#difficollor{
+    color: #500000;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0%;
+    overflow: hidden;
+    background-color: red;
+    position: fixed;
+  top: 0;
+  width: 100%;
+}
+nav li{
+    float: left;
+}
+nav a, nav a:visited{
+    display: block;
+    padding: 30px;
+    background-color: black;
+    text-decoration: none;
+    color: red;
+    
+}
+nav a:hover{
+    display: block;
+    padding: 30px;
+    overflow: hidden;
+}
+.stiky{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+section{
+    background-color: rgb(245, 11, 11);
+    width: 50vw;
+    margin: 0 auto;
+    padding: 30px;
+    overflow: hidden;
+}
+.alternate{
+    background-color: aqua;
+}
+section img{
+    float: left;
+    margin-left: 30px;
+}
+footer{
+    background-color: #500000;
+    color: yellow;
+    text-align: center;
+    padding: 35px;
+}
+a{
+    color: aqua;
+}
+a:visited{
+    color: red;
+}
+a:hover{
+    color: yellow;
+}
+a:active{
+    color: #500000;
+}
