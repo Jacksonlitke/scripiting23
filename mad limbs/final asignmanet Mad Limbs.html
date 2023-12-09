@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Mad limbs</title>
+    
+    <link rel="stylesheet" href="css/madlimbsstylesheet.css">
+    <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+
+<!-- Popper JS -->
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+    </head>
+    <body>
+        
+    <header> 
+        <div class="container">
+            <dvi class="row align-item-center customHight">
+                <div class="col-sm-6 text-white bg-dark mx-auto p-5 rounded">
+                    <h1>The Haunted Mansion Mad Libs</h1>
+                    <p>By Jackson Litke</p>
+                </div>
+            </dvi>
+        </div>
+    </header>
+    <section>    <form action="javascript:write();">
+        <div class="container py-5">
+            <div class="row my-5 p-3">
+             <div class="col-sm-6 bg-secondary mx-auto">
+                            <h2> The Haunted Masion</h2>
+                            
+                                
+                <h2> Fill Out</h2>
+            
+
+                  <div class="form-group">
+                                    <label for="name">Name:</label>
+                                    <input class="form-control" type="text" id="name"> 
+                                 </div>
+                    <div class="form-group">
+                        <label for="name">line 1: (another word for scary) </label>
+                        <input class="form-control" type="text" id="creepy"> 
+                    </div>
+                    <div class="form-group">
+                        <label for="name">line 2:(A Type of Building) </label>
+                        <input class="form-control" type="text" id="house"> 
+                    </div>
+<div class="form-group">
+                    line 3: Select One of the Action Words
+                          <div class="form-check ">
+                        <label class="line3">
+                          <input type="radio" class="form-check-input" name="movement" value="raced">raced
+                          <input type="button" value="race" onclick="showImage(this);" />
+  <img id="1" src="th(2)" style="display:none" />
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <label class="form-check-label">
+                          <input type="radio" class="form-check-input" name="movement" value="sprint">sprinted
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <label class="form-check-label">
+                          <input type="radio" class="form-check-input" name="movement" value="ran">ran
+                        </label>
+                      </div>
+                      
+                      <div class="form-check">
+                        <label class="form-check-label">
+                          <input type="radio" class="form-check-input" name="movement" value="rushed">rushed
+                        </label>
+                      </div>
+                      <div class="form-group">
+                        <label for="name">line4:(Type of Entrance Way) </label>
+                        <input class="form-control" type="text" id="door"> 
+                    </div> 
+                    <div class="form-group">
+                        <label for="name">line5: (Type of Room in a House)</label>
+                        <input class="form-control" type="text" id="bedroom"> 
+                    </div> 
+                    <div class="form-group">
+                        <label for="name">line6: (Another Word for Funny ending in -ing)</label>
+                        <input class="form-control" type="text" id="joking"> 
+                    </div> 
+                    <div class="form-group">
+                        <label for="name">line7: (Another Word for Looking Around)</label>
+                        <input class="form-control" type="text" id="voice"> 
+                    </div> 
+                    <div class="form-group">
+                        <label for="name">line8: (Another Word for Discover)</label>
+                        <input class="form-control" type="text" id="find out"> 
+                    </div> 
+                    line 9 select a household item
+                    <div class="form-check">
+                        <label class="form-check-label">
+                          <input type="radio" class="form-check-input" name="missing" value="painting">painting
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <label class="form-check-label">
+                          <input type="radio" class="form-check-input" name="missing" value="chair">chair
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <label class="form-check-label">
+                          <input type="radio" class="form-check-input" name="missing" value="fridge">fridge
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <label class="form-check-label">
+                          <input type="radio" class="form-check-input" name="missing" value="can">can
+                        </label>
+                      </div>
+                      <div class="form-group">
+                        <label for="name">line10: (another word for scared)</label>
+                        <input class="form-control" type="text" id="freaking out"> 
+                    </div> 
+                    <div class="form-group">
+                        <label for="name">line11: (a body funtion ending in -ing)</label>
+                        <input class="form-control" type="text" id="breathing"> 
+                    </div> 
+                    <div class="form-group">
+                        <label for="name">line12: (a sound you make when you are scared, ending in -ed)</label>
+                        <input class="form-control" type="text" id="screamed"> 
+                    </div> 
+                    <div class="form-group">
+                        <label for="name">line13: (A body part)</label>
+                        <input class="form-control" type="text" id="hand"> 
+                     </div> 
+
+  </div>
+
+
+
+
+
+
+                    <button type="submit" class="form-check-input">Submit</button>
+               
+</div>
+              </div>
+                <div class="row">
+                  <div id="output" class="col-sm-12 mx-auto bg-secondary p-5 rounded text-white">
+                      <h2>Here is Your Newly Drafted Story!</h2>
+                  </div>
+               </div>
+            
+        
+               </div>
+                </form>
+                
+                
+    </section>
+    <footer class="bg-dark">
+        <div class="container text-white text-center p-5 mt-5">
+            <div class="row">
+                <div class="col-sm-6">
+                    <p>complet!</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/madlimbsjavascript.js"></script>
+    </body>
+    </html>

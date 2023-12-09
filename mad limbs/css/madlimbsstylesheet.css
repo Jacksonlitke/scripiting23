@@ -1,0 +1,16 @@
+header{
+    color: red;
+    background-image: url("../Images/th.jpeg")
+}
+h1 {
+    text-align: center;
+  }
+body{
+    background-image: url();
+    background-size:cover;
+    background-attachment:fixed;
+    text-align: center;
+}
+h2 {
+    text-align: center;
+}
